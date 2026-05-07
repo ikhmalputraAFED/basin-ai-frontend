@@ -1,0 +1,15 @@
+node_modules
+.nuxt
+.output
+.data
+.cache
+.vite
+
+dist
+
+.env
+.env.*
+!.env.example
+
+.DS_Store
+*.log

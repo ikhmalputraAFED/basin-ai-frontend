@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme inline {
+  /* Brand Colors */
+  --color-brand-primary: #00A89B;
+  --color-brand-secondary: #264399;
+  --color-brand-purple: #6D2B8F;
+
+  /* Button & Toggle Colors */
+  --color-toggle-base: #057F75;
+  --color-button-primary: #009689;
+  --color-button-white: #FFFFFF;
+
+  /* Gradients */
+  --color-gradient-blue: #2B7FFF;
+  --color-gradient-teal: #00BBA6;
+
+  /* Overlay & Backgrounds */
+  --color-background-dark: #0E162B;
+  --color-navbar-dark-1: #1E2839;
+  --color-navbar-dark-2: #25292E;
+  --color-overlay-base: #314158;
+
+  /* Brand Scale */
+  --color-brand-500: #068075;
+  --color-brand-600: #056b61;
+  --color-brand-700: #044e46;
+  --color-brand-800: #000000;
+
+  /* Gray Scale */
+  --color-gray-25: #F9FCFE;
+  --color-gray-50: #F8F8F8;
+  --color-gray-100: #C9D9ED;
+  --color-gray-200: #ABBCD3;
+  --color-gray-300: #90A1B9;
+  --color-gray-400: #62748E;
+  --color-gray-500: #45556C;
+  --color-gray-600: #233045;
+  --color-gray-700: #1D293D;
+  --color-gray-750: #233045;
+  --color-gray-800: #0F172B;
+  --color-gray-900: #020202;
+}
+
+html,
+body,
+#__nuxt {
+  min-height: 100vh;
+  background: var(--bai-bg, #0a0b10);
+  color: var(--bai-text, #f1f5f9);
+  font-family: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}

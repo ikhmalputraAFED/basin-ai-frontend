@@ -1,0 +1,17 @@
+:root {
+  --brand-gradient: linear-gradient(252.4deg, #00A89B 2.52%, #0A8D9A 23.61%, #264399 57.35%, #6D2B8F 100%);
+  --navbar-gradient: linear-gradient(180deg, rgba(30, 40, 57, 0.8) 0%, #26292E 100%);
+  --background-gradient: linear-gradient(135deg, var(--color-gradient-blue) 0%, var(--color-gradient-teal) 100%);
+}
+
+.brand-gradient {
+  background: var(--brand-gradient);
+}
+
+.navbar-gradient {
+  background: var(--navbar-gradient);
+}
+
+.background-gradient {
+  background: var(--background-gradient);
+}

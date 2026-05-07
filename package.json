@@ -1,0 +1,28 @@
+{
+  "name": "basin-ai-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3100",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview --port 3100",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "@vueuse/core": "^13.9.0",
+    "lucide-vue-next": "^0.540.0",
+    "marked": "^17.0.1",
+    "nuxt": "^4.0.3",
+    "tailwindcss": "^4.1.12",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.2",
+    "vue-tsc": "^2.2.0"
+  }
+}
